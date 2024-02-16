@@ -5,15 +5,11 @@ import titleicon from '../assets/home.svg';
 import { useState } from "react";
 export function Navbar(){
    const[currentState,changeState]=useState(true);
-   const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth <= 700);
 
    const clickfunc =()=>{
     changeState(!currentState)
-    setIsSmallScreen(!isSmallScreen)
-    console.log(isSmallScreen)
-   }
 
-   window.addEventListener('resize',handleResize);
+   }
     return(
         <>
        <Favicon url={titleicon} />
@@ -26,7 +22,7 @@ export function Navbar(){
         <FontAwesomeIcon onClick={clickfunc}  icon={ currentState? faBars : faTimes}></FontAwesomeIcon>
         </div>
       
-        <div className="navlinks "><a className="links" href="/home">Home</a></div>
+        <div className="navlinks"><a className="links" href="/home">Home</a></div>
         <div className="navlinks"><a className="links" href="/product">product</a></div>
         <div className="navlinks"><a className="links" href="/blog">blog</a></div>
         <div className="navlinks"><a className="links" href="/about">about</a></div>

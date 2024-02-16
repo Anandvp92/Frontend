@@ -31,12 +31,13 @@ div{
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
+    margin: 0;
   }
   
   .logo{
     width:50px;
     padding: 10px;
-  
+  margin: 0;
   }
   
   .links{
@@ -68,6 +69,9 @@ div{
     align-items: center;
     justify-content: center;
     display: none;  
+    padding: 0;
+    margin: 0;
+    position:fixed;
   
 }
 
@@ -75,7 +79,7 @@ div{
 
 
 
-@media (max-width:700px) {
+@media (max-width:810px) {
   .navbar {
   display: block;
   padding: 0;
@@ -124,4 +128,6 @@ div{
     justify-content: center;
   text-align: center;
   }
+
+  
 }
