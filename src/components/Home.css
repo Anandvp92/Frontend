@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.section-div1{
+    background-color: rgb(0, 0, 0);
+    padding: 30px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+

@@ -3,11 +3,13 @@ import './App.css';
 import { Navbar as Nav } from "./components/Navbar";
 import './components/Navbar.css';
 import Home from "./components/Home";
+import './components/Home.css';
 
 const App  =  () => {
 return (
 <>
 <Nav/>
+<Home/>
 </>
 			
 	);
