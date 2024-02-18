@@ -6,7 +6,6 @@ import gitLogo from '../assets/github-mark-white.svg';
 import fbLogo from '../assets/reshot-icon-facebook-EAQUC4LBMV.svg';
 import XLogo from '../assets/twitter.svg';
 import WhatsappLogo from '../assets/whatsapp.svg';
-
 const Home =()=>{
 
     return(

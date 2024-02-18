@@ -43,7 +43,7 @@ body{
 
 .contact-social {
     margin: 0;
-    display:inline-flex;
+    display:flex;
     padding: 10px;
     align-items: center;
     justify-content: center;
