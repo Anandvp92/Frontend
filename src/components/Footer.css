@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:  #1A1E25; 
+}
+
+
+
+
+/* from the web */
+.footer-para{
+    color:   #868c96;
+
+
+}
+
+
+
+      
+ ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+.contact-area {
+    border-bottom: 10px solid #353C46;
+    text-align: center;
+    background-color:#1a1e25;
+    margin: 0;
+    padding: 0;
+    color: #8b9199;
+}
+
+
+
+.contact-content h6 {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+
+
+.contact-social {
+    margin: 0;
+    display:inline-flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+
+
+footer {
+    background: #1A1E25;
+    color: #868c96;
+    height: 10vh;
+}
+
+footer {
+    margin: 0;
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer img {
+    width: 44px;
+}
+
+.socilmedialogos{
+    justify-content: center;
+    align-items: center;
+    display:inline-block;
+    position: relative;
+    width: 30px;
+    border: solid;
+    padding: 9.3px;
+    transition: border-color 0.50s, box-shadow 0.50s ;  
+   border-radius: 10px;
+  
+}
+
+
+.facebooklogo{
+    justify-content: center;
+    align-items: center;
+    display:inline-block;
+    position: relative;
+    width: 30px;
+    margin: 10px;
+    border: solid;
+    padding: 9px;
+    transition: border-color 0.50s, box-shadow 0.50s ;   
+    border-radius: 10px;
+
+}
+
+
+.socilmedialogos:hover,.facebooklogo:hover{
+    border-color:rgb(172, 7, 238) ;
+    box-shadow: -1px 1px 10px   violet;
+
+}
+
+.footer-img{
+    display:inline-block;
+    width: 50px;
+    padding: 10px;
+    
+}

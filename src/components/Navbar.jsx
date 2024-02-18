@@ -3,7 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes, faBars } from '@fortawesome/free-solid-svg-icons';
 import titleicon from '../assets/home.svg';
 import { useState, useEffect } from "react";
-
+import {Link} from 'react-scroll';
+import eagleLogo from '../assets/illustration-of-eagle-head-logo-with-ai-generative-free-png.webp'
 export function Navbar(){
     
     const[currentState,changeState]=useState(false);
@@ -41,16 +42,16 @@ export function Navbar(){
         <Favicon url={titleicon} />
         <div className="navbar">
         <div className="logoimage" >
-        <a href="/home"><img src="https://static.vecteezy.com/system/resources/thumbnails/024/684/356/small/illustration-of-eagle-head-logo-with-ai-generative-free-png.png" className="logo"/></a>
+        <Link to="section-1" smooth={true} duration={500}><img src={eagleLogo} className="logo"/></Link>
         </div>
         <div className="hambergermenu" >
         <FontAwesomeIcon onClick={clickfunc}  icon={ currentState? faBars : faTimes}></FontAwesomeIcon>
         </div>      
-        <div className="navlinks" style={{display:currentState? "none":"block"}}><a className="links" href="/home">Home</a></div>
-        <div className="navlinks" style={{display:currentState? "none":"block"}}><a className="links" href="/product">product</a></div>
-        <div className="navlinks" style={{display:currentState? "none":"block"}}><a className="links" href="/blog">blog</a></div>
-        <div className="navlinks" style={{display:currentState? "none":"block"}}><a className="links" href="/about">about</a></div>
-        <div className="navlinks" style={{display:currentState? "none":"block"}}><a href="/contact"><button className="contact-btn">Contact Us</button></a></div> 
+        <div className="navlinks" style={{display:currentState? "none":"block"}}><Link to="section-1" smooth={true} duration={500} className="links" >Home</Link></div>
+        <div className="navlinks" style={{display:currentState? "none":"block"}}><Link to="section-2" smooth={true} duration={500} className="links" >Product</Link></div>
+        <div className="navlinks" style={{display:currentState? "none":"block"}}><Link to="section-3" smooth={true} duration={500} className="links" >Blog</Link></div>
+        <div className="navlinks" style={{display:currentState? "none":"block"}}><Link to="section-4" smooth={true} duration={500} className="links" >About</Link></div>
+        <div className="navlinks" style={{display:currentState? "none":"block"}}><Link to="section-5" smooth={true} duration={500} className=""><button className="contact-btn">Contact Us</button></Link></div> 
         </div>
         </>
     )
