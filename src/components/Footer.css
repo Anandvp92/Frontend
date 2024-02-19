@@ -75,11 +75,12 @@ footer img {
     align-items: center;
     display:inline-block;
     position: relative;
-    width: 30px;
+    width: 15px;
     border: solid;
     padding: 9.3px;
     transition: border-color 0.50s, box-shadow 0.50s ;  
    border-radius: 10px;
+  
   
 }
 
@@ -89,7 +90,7 @@ footer img {
     align-items: center;
     display:inline-block;
     position: relative;
-    width: 30px;
+    width: 15px;
     margin: 10px;
     border: solid;
     padding: 9px;
@@ -106,8 +107,14 @@ footer img {
 }
 
 .footer-img{
-    display:inline-block;
-    width: 50px;
-    padding: 10px;
+    display:block;
     
 }
+
+.footerimage{
+    display: inline-block;
+    width: 20px;
+}
+
+
+

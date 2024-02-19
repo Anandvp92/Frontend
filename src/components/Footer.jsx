@@ -3,6 +3,7 @@ import gitLogo from '../assets/github-mark-white.svg';
 import fbLogo from '../assets/reshot-icon-facebook-EAQUC4LBMV.svg';
 import XLogo from '../assets/twitter.svg';
 import WhatsappLogo from '../assets/whatsapp.svg';
+import eagleLogo from '../assets/illustration-of-eagle-head-logo-with-ai-generative-free-png.webp'
 export function Footer(){
     return (
         <>
@@ -52,9 +53,9 @@ export function Footer(){
         </section>
        
         <footer>
-          <p >
+        <p style={{textDecoration:"underline"}} >
             Copyright © 2024{" "}
-            All Rights<span className='footer-img'><img src='https://i.ibb.co/QDy827D/ak-logo.png'></img></span>
+            All Rights<span className='footer-img'><img className='footerimage' src={eagleLogo}></img></span>
             Reserved.
           </p>
         </footer>
